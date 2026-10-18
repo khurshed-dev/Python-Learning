@@ -31,11 +31,15 @@
 # print(add_number())
 
 
-# def add_number(*args):
-#   total = 0
-#   for number in args:
-#     total += number
-#   return total
-# print(add_number(10, 20))
-# print(add_number(5, 10, 15))
-# print(add_number(100, 200, 300, 400))
+def add_number(*args):
+  total = 0
+  for number in args:
+    total += number
+  return total
+print(add_number(10, 20))
+print(add_number(5, 10, 15))
+print(add_number(100, 200, 300, 400))
+
+
+
+
